@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block title %}两大事业项目 - 上海慧引智能科技有限公司{% endblock %}
+
+{% block content %}
+<!-- Article Header -->
+<section class="article-header">
+    <div class="container">
+        <span class="article-category">TUTORIALS</span>
+        <h1>两大事业项目。</h1>
+        <div class="article-meta">
+            <span class="author">Zhang Dapeng</span>
+            <span class="separator">•</span>
+            <span class="date">Fri May 19 2023</span>
+            <span class="separator">•</span>
+            <span class="tags">
+                <span class="tag">#Acquisitions</span>
+                <span class="tag">#Franchise</span>
+                <span class="tag">#astro</span>
+            </span>
+        </div>
+    </div>
+</section>
+
+<!-- Article Content -->
+<section class="article-content">
+    <div class="container">
+        <div class="article-body">
+            <p>事业项目: 一是收购拟转让的公司，我们根据客户的要求寻求符合要求和条件的转让公司。 二是新设公司，包括便利店、餐饮店、自助洗衣房、自动贩卖等加盟式店铺，为中小个体经营主服务。</p>
+        </div>
+
+        <!-- Back to Blog -->
+        <div class="back-to-blog">
+            <a href="{{ url_for('services') }}" class="back-link">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M19 12H5"/>
+                    <path d="M12 19l-7-7 7-7"/>
+                </svg>
+                Back to Blog
+            </a>
+        </div>
+    </div>
+</section>
+{% endblock %}

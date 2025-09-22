@@ -1,0 +1,164 @@
+{% extends "base.html" %}
+
+{% block title %}上海慧引智能科技有限公司 - AI研发与咨询服务{% endblock %}
+
+{% block content %}
+<!-- Main Hero Section -->
+<section class="main-hero">
+    <div class="container">
+        <div class="hero-layout">
+            <div class="hero-text">
+                <h1>上海慧引智能科技有限公司</h1>
+                <div class="hero-description">
+                    <p>上海慧引智能科技的 AI 团队专注于大语言模型（LLM）的研发与落地。我们采用基于 Transformer 的自回归生成式模型架构，并引入<strong>模块化分解（Modular Decomposition）</strong>理念：将超大规模神经网络拆分为若干可独立训练与部署的功能模块，使每个模块各司其职、协同工作。</p>
+                    
+                    <p>在工程实现上，我们结合 Adapter/语言适配器、PEFT、LoRA 等参数高效微调技术，并探索更高级的模块化策略，以在成本可控的前提下实现更优性能与更快迭代。</p>
+                    
+                    <p>我们自博士阶段起就长期研究模型分解与可解释性，希望把"可控、可靠、可演进"的技术路线带给企业客户。此外，我们已在海运物流场景完成应用落地：聚合多船司船期与在途动态，实现自动查船期与海运状态追踪，显著提升运营效率；并结合行业知识库与检索增强的智能客服，覆盖常见问答与异常通知，响应更快、人工负担更小。</p>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-image-placeholder">
+                    <svg width="100%" height="400" viewBox="0 0 600 400" fill="none">
+                        <defs>
+                            <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                                <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:#E0F6FF;stop-opacity:1" />
+                            </linearGradient>
+                        </defs>
+                        <rect width="100%" height="100%" fill="url(#skyGradient)"/>
+                        <!-- Cherry blossom branches -->
+                        <path d="M0,300 Q150,280 300,290 T600,300" stroke="#8B4513" stroke-width="8" fill="none"/>
+                        <path d="M100,320 Q200,300 300,310 T500,320" stroke="#8B4513" stroke-width="6" fill="none"/>
+                        <!-- Cherry blossoms -->
+                        <g fill="#FFB6C1" opacity="0.8">
+                            <circle cx="120" cy="290" r="8"/>
+                            <circle cx="140" cy="285" r="6"/>
+                            <circle cx="180" cy="295" r="7"/>
+                            <circle cx="220" cy="288" r="8"/>
+                            <circle cx="260" cy="292" r="6"/>
+                            <circle cx="300" cy="285" r="7"/>
+                            <circle cx="340" cy="295" r="8"/>
+                            <circle cx="380" cy="290" r="6"/>
+                            <circle cx="420" cy="288" r="7"/>
+                            <circle cx="460" cy="292" r="8"/>
+                        </g>
+                        <!-- Floating petals -->
+                        <g fill="#FFB6C1" opacity="0.6">
+                            <circle cx="200" cy="200" r="4"/>
+                            <circle cx="350" cy="180" r="3"/>
+                            <circle cx="450" cy="220" r="4"/>
+                            <circle cx="300" cy="150" r="3"/>
+                        </g>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Strengths Section -->
+<section class="strengths">
+    <div class="container">
+        <div class="section-header">
+            <h2>上海慧引智能科技的优势：</h2>
+        </div>
+        <div class="strengths-grid">
+            <div class="strength-card">
+                <div class="strength-icon">
+                    <svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
+                        <circle cx="12" cy="12" r="3"/>
+                        <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/>
+                    </svg>
+                </div>
+                <h3>模块化的价值</h3>
+                <p><strong>灵活扩展：</strong>可针对特定任务按需训练与装配模块，快速适配不同行业场景。</p>
+            </div>
+            <div class="strength-card">
+                <div class="strength-icon">
+                    <svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2L2 7v10c0 5.55 3.84 9.739 9 11 5.16-1.261 9-5.45 9-11V7l-10-5z"/>
+                    </svg>
+                </div>
+                <h3>创业者</h3>
+                <p>创业者的一人，是北京大学的法学硕士毕业，中国国内的法人以及个人的海外送金に関する专门的なアドバイスを提供できます。</p>
+            </div>
+            <div class="strength-card">
+                <div class="strength-icon">
+                    <svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M20 6L9 17l-5-5"/>
+                    </svg>
+                </div>
+                <h3>客户支持</h3>
+                <p>日本语、英语、以及中国语对应。</p>
+            </div>
+            <div class="strength-card">
+                <div class="strength-icon">
+                    <svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                        <circle cx="9" cy="7" r="4"/>
+                        <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                        <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                    </svg>
+                </div>
+                <h3>成员</h3>
+                <p>公司的成员长期间在日本居住，现地的风土和习惯理解深入，提案的专业性得到确保。</p>
+            </div>
+            <div class="strength-card">
+                <div class="strength-icon">
+                    <svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
+                        <rect x="3" y="3" width="7" height="7"/>
+                        <rect x="14" y="3" width="7" height="7"/>
+                        <rect x="14" y="14" width="7" height="7"/>
+                        <rect x="3" y="14" width="7" height="7"/>
+                    </svg>
+                </div>
+                <h3>数字化</h3>
+                <p>AI技术广泛导入。DX（数字化）相关需求情况下，AI以及其他IT分野技术支持提供协力公司。</p>
+            </div>
+            <div class="strength-card">
+                <div class="strength-icon">
+                    <svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+                        <circle cx="9" cy="7" r="4"/>
+                        <path d="M22 21v-2a4 4 0 0 0-3-3.87"/>
+                        <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                    </svg>
+                </div>
+                <h3>免费</h3>
+                <p>初期（15日以内）的咨询服务免费提供。</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Consulting Section -->
+<section class="consulting-section">
+    <div class="container">
+        <div class="consulting-content">
+            <div class="consulting-text">
+                <h2>咨询与落地服务</h2>
+                <p>我们是一家专注初创与成长型企业的咨询公司，团队由深耕产业与资本市场的顾问组成，提供：</p>
+                <ul class="consulting-list">
+                    <li>项目甄选与可行性研究</li>
+                    <li>市场与技术尽调</li>
+                    <li>商业模式与财务分析</li>
+                    <li>合同谈判与交易结构设计</li>
+                    <li>从概念验证（PoC）到生产部署的全流程陪跑</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact CTA -->
+<section class="cta">
+    <div class="container">
+        <div class="cta-content">
+            <h2>值得信赖的合作伙伴</h2>
+            <p>上海慧引智能科技致力于以专业与诚信，为您实现业务目标、创造长期价值。无论是日语化大模型的定制与集成，还是数据与业务流程的智能化升级，我们都将与您并肩前行。</p>
+            <a href="{{ url_for('contact') }}" class="btn btn-primary">立即咨询</a>
+        </div>
+    </div>
+</section>
+{% endblock %}
