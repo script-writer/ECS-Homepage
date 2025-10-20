@@ -1078,6 +1078,19 @@ section {
     color: #a0aec0;
 }
 
+/* ICP Filing Link */
+.icp-link {
+    color: #90cdf4;
+    text-decoration: none;
+    font-size: 0.9em;
+    transition: color 0.3s ease;
+}
+
+.icp-link:hover {
+    color: #63b3ed;
+    text-decoration: underline;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .hamburger {
